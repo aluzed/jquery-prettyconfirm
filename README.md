@@ -25,12 +25,12 @@ _prettyConfirm.confirm(params);
 ```
 
 ### Params list :
-**title** : *string* - title for the alert popup
-**content** : *string* - content for the alert popup
-**className** : *string* - change the class : (error, success, primary, warning) | *default : primary*
-**closeOnAccept** : *boolean* - automaticaly close if click on accept button | *default : false*
-**showAccept** : *boolean* - display accept button | *default : true*
-**showCancel** : *boolean* - display cancel button | *default : true*
-**extraParams** : *object* - extra object for callbacks | *default : {}*
-**acceptCallback** : *function(extraParams)* - callback for accept button
-**cancelCallback** : *function(extraParams)* - callback for cancel button
+* **title** : *string* - title for the alert popup
+* **content** : *string* - content for the alert popup
+* **className** : *string* - change the class : (error, success, primary, warning) | * *default : primary*
+* **closeOnAccept** : *boolean* - automaticaly close if click on accept button | *default : false*
+* **showAccept** : *boolean* - display accept button | *default : true*
+* **showCancel** : *boolean* - display cancel button | *default : true*
+* **extraParams** : *object* - extra object for callbacks | *default : {}*
+* **acceptCallback** : *function(extraParams)* - callback for accept button
+* **cancelCallback** : *function(extraParams)* - callback for cancel button
