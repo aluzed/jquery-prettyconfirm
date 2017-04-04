@@ -1,0 +1,99 @@
+/* Colors from : https://flatuicolors.com/ */
+@belizehole: #2980b9;
+@emerald: #2ecc71;
+@alizarin: #e74c3c;
+@carrot: #e67e22;
+
+.prettyconfirm_container {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 100;
+  display: table-cell;
+  vertical-align: middle;
+
+  .error {
+    background: @alizarin;
+    color: #FFF;
+  }
+  .success {
+    background: @emerald;
+    color: #FFF;
+  }
+  .primary {
+    background: @belizehole;
+    color: #FFF;
+  }
+  .warning {
+    background: @carrot;
+    color: #FFF;
+  }
+  .light-error {
+    background: fade(@alizarin, 40%);
+    color: #FFF;
+  }
+  .light-success {
+    background: fade(@emerald, 40%);
+    color: #FFF;
+  }
+  .light-primary {
+    background: fade(@belizehole, 40%);
+    color: #FFF;
+  }
+  .light-warning {
+    background: fade(@carrot, 40%);
+    color: #FFF;
+  }
+
+  .prettyconfirm_box {
+
+    @media screen and (max-width: 767px){
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    @media screen and (min-width: 768px){
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    min-height: 200px;
+    background: #FFF;
+    box-shadow: 0 0 50px #333;
+    position: relative;
+
+    .pc_header {
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+      height:60px;
+      padding: 15px;
+      font-size: 22px;
+      color: #fff;
+    }
+
+    .pc_content {
+      position: absolute;
+      top:80px;
+      left:0;
+      right:0;
+      padding: 15px;
+      height:~"calc(100% - 130px)";
+      font-size: 18px;
+      color: #333;
+    }
+
+    .pc_footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      padding: 15px;
+    }
+  }
+}
