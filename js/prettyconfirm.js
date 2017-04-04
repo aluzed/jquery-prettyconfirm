@@ -18,7 +18,7 @@ var _prettyConfirmCore = function(params){
     showAccept: true,
     showCancel: true,
     extraParams: {},
-    title: '';
+    title: '',
     content: ''
   }, params);
 
