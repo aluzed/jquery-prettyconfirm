@@ -18,6 +18,7 @@ var _prettyConfirmCore = function(params){
     showAccept: true,
     showCancel: true,
     extraParams: {},
+    title: '';
     content: ''
   }, params);
 
@@ -93,7 +94,6 @@ var _prettyConfirmCore = function(params){
           $('.prettyconfirm_container').remove();
         });
       }
-
 
       centerBox();
     }
